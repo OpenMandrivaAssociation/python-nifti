@@ -12,6 +12,7 @@ License:	BSD
 Group:		Development/Python
 Url:		http://niftilib.sourceforge.net/pynifti
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	swig
 BuildRequires:	nifti-devel
 BuildRequires:	python-numpy
 Requires:	python-numpy
