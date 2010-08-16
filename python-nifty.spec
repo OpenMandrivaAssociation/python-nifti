@@ -14,7 +14,7 @@ Url:		http://niftilib.sourceforge.net/pynifti
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	swig
 BuildRequires:	nifti-devel
-BuildRequires:	python-numpy
+BuildRequires:	python-numpy-devel
 Requires:	python-numpy
 %py_requires -d
 
