@@ -13,6 +13,7 @@ Group:		Development/Python
 Url:		http://niftilib.sourceforge.net/pynifti
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	nifti-devel
+BuildRequires:	python-numpy
 Requires:	python-numpy
 %py_requires -d
 
