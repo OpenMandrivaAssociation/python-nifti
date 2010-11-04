@@ -1,7 +1,7 @@
 %define module	nifti
 %define name	python-%{module}
 %define version	0.20100607.1
-%define release	%mkrel 1
+%define release	%mkrel 2
 
 Summary:	Pythonic access to NIfTI and ANALYZE files 
 Name:		%{name}
