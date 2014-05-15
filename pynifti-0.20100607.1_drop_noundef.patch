@@ -1,0 +1,17 @@
+diff -Naur pynifti-0.20100607.1.orig/setup.py pynifti-0.20100607.1/setup.py
+--- pynifti-0.20100607.1.orig/setup.py	2012-12-25 07:33:31.422553101 -0500
++++ pynifti-0.20100607.1/setup.py	2012-12-25 07:36:40.798585179 -0500
+@@ -21,11 +21,11 @@
+ # Common configuration #
+ ########################
+ 
+-extra_link_args = ['--Wl,--no-undefined']
++extra_link_args = []
+ include_dirs = []
+ library_dirs = []
+ defines = []
+-link_libs = []
++link_libs = ['znz']
+ # for some additional swig flags, but see below
+ swig_opts = []
+ # a more reliable way to pass options to SWIG
