@@ -9,7 +9,7 @@ Source0:	http://sourceforge.net/projects/niftilib/files/pynifti/0.20100607.1/pyn
 Patch0:		pynifti-0.20100607.1_drop_noundef.patch
 License:	BSD
 Group:		Development/Python
-Url:		http://niftilib.sourceforge.net/pynifti
+Url:		https://niftilib.sourceforge.net/pynifti
 BuildRequires:	swig
 BuildRequires:	nifti-devel
 BuildRequires:	python-numpy-devel
